@@ -1,0 +1,14 @@
+{
+  "vpcId": "<CHANGE TO VPC ID WHERE AURORA IS RUNNING>",
+  "clusterIdentifier": "<CLUSTER IDENTIFIER OF AURORA>",
+  "customEndpointIdentifier": "<CUSTOM ENDPOINT NAME THAT'S PRE-CREATED>",
+  "dbSecretArn": "<SECRET ARN TO LOGIN TO AURORA>",
+  "itemsToPrewarm": [
+    "<LIST OF TABLES THAT YOU WANT TO PRE-WARM>"
+  ],
+  "dbSecurityGroupId": "<SECURITY GROUP ID OF AURORA>",
+  "database": "<DATABASE TO CONNECT TO>",
+  "prewarmerSubnetIds": [
+    "<SUBNET IDs WHERE PRE-WARMER LAMBDA WOULD BE DEPLOYED IN, MINIMUM 1 SUBNET ID>"
+  ]
+}

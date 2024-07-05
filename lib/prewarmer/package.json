@@ -1,0 +1,12 @@
+{
+    "name": "prewarmer",
+    "version": "0.0.1",
+    "dependencies": {
+        "@aws-sdk/client-rds": "^3.609.0",
+        "@aws-sdk/client-secrets-manager": "^3.609.0",
+        "ts-postgres": "^2.0.4"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.140"
+    }
+}
